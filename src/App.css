@@ -906,6 +906,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     --progress-value: 0;
   }
 }
+@keyframes sql-progress {
+  0% {
+    --progress-value: 0;
+  }
+
+  20% {
+    --progress-value: 87;
+  }
+
+  80% {
+    --progress-value: 87;
+  }
+
+  100% {
+    --progress-value: 0;
+  }
+}
 
 /* @keyframes css-progress {
   to { --progress-value: 95; }
